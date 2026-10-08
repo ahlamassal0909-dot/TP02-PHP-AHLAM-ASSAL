@@ -1,5 +1,4 @@
 <?php
-
 $entier = 42;
 $chaine = "42";
 $decimal = 15.8;
@@ -44,5 +43,4 @@ var_dump((bool)"PHP");
 var_dump((bool)[]);
 
 echo "</pre>";
-
 ?>

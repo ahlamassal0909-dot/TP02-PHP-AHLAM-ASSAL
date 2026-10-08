@@ -1,5 +1,4 @@
 <?php
-
 $notes = [
     "Amine" => 12,
     "Sara" => 16,
@@ -7,22 +6,18 @@ $notes = [
     "Lina" => 14,
     "Adam" => 10
 ];
-
 $somme = 0;
 $nombreValides = 0;
 $meilleureNote = 0;
 $meilleurEtudiant = "";
-
 echo "<table border='1' cellpadding='8'>";
-
 echo "<tr>";
 echo "<th>Etudiant</th>";
 echo "<th>Note</th>";
 echo "<th>Résultat</th>";
 echo "</tr>";
-
 foreach ($notes as $nom => $note) {
-
+    
     $somme += $note;
 
     if ($note >= 10) {
@@ -53,5 +48,4 @@ echo "<p>Moyenne : $moyenne</p>";
 echo "<p>Nombre d'étudiants validés : $nombreValides</p>";
 echo "<p>Meilleure note : $meilleureNote</p>";
 echo "<p>Meilleur étudiant : $meilleurEtudiant</p>";
-
 ?>

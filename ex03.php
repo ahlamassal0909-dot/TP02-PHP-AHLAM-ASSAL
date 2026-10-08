@@ -1,5 +1,4 @@
 <?php
-
 define("TAUX_TVA", 20);
 define("DEVISE", "MAD");
 
@@ -25,5 +24,4 @@ echo "Montant final : $totalTTC " . DEVISE . "<br>";
 if (defined("TAUX_TVA")) {
     echo "La constante TAUX_TVA existe.";
 }
-
 ?>

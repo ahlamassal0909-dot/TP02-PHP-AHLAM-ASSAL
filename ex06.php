@@ -1,7 +1,5 @@
 <?php
-
 $numeroMois = 3;
-
 switch ($numeroMois) {
 
     case 1:
@@ -55,5 +53,4 @@ switch ($numeroMois) {
     default:
         echo "Numéro de mois invalide";
 }
-
 ?>

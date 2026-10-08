@@ -1,5 +1,4 @@
 <?php
-
 $moyenne = 15;
 
 if ($moyenne < 0 || $moyenne > 20) {
@@ -26,5 +25,4 @@ if ($moyenne < 0 || $moyenne > 20) {
 
     echo "Très bien";
 }
-
 ?>

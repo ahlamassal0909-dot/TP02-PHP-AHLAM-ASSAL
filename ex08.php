@@ -15,7 +15,6 @@ while ($i <= 20) {
     $i += 2;
 }
 
-
 echo "<h2>Partie 2</h2>";
 
 $compteur = 5;
@@ -29,7 +28,6 @@ while ($compteur < 5) {
 
 echo "while : " . $executionWhile . " exécution(s)<br>";
 
-
 $compteur = 5;
 $executionDoWhile = 0;
 
@@ -41,7 +39,6 @@ do {
 } while ($compteur < 5);
 
 echo "do-while : " . $executionDoWhile . " exécution(s)<br>";
-
 
 echo "<h2>Partie 3</h2>";
 

@@ -21,6 +21,7 @@ TP 02 PHP - Programmation Web 2
 - Exercice 10 - GET
 - Exercice 10 - POST
 
+
 ## Exercice 2 — Variables en PHP
 
 ### Pourquoi $note et $Note sont différentes ?
@@ -41,6 +42,7 @@ Les noms de variables valides en PHP sont :
 
 Les noms `$a!` et `$1a` sont invalides.
 
+
 ## Exercice 4 — Types et conversions
 
 ### Différence d'affichage de false avec echo et var_dump()
@@ -52,6 +54,7 @@ Avec `var_dump()`, PHP affiche le type et la valeur :
 bool(false)
 
 Donc `var_dump()` permet de voir clairement que la valeur est un booléen `false`.
+
 
 ## Exercice 5 — Conditions
 
@@ -65,6 +68,7 @@ Donc `var_dump()` permet de voir clairement que la valeur est un booléen `false
 - `16` → Très bien
 - `21` → Note invalide
 
+
 ## Exercice 10 — GET et POST
 
 ### Partie A — GET
@@ -73,7 +77,7 @@ Après l'envoi du formulaire avec la méthode GET, les valeurs apparaissent dans
 
 Exemple :
 
-ex10_get.php?nom=Amine&prenom=Ali&groupe=G1
+ex10_get.php?nom=ASSAL&prenom=AHLAM&groupe=G3
 
 Les données sont donc visibles dans l'URL.
 

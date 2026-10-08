@@ -1,5 +1,4 @@
 <?php
-
 $nom = "Assal";
 $prenom = "Ahlam";
 $age = 18;
@@ -17,5 +16,4 @@ $Note = 16;
 
 echo "note = " . $note . "<br>";
 echo "Note = " . $Note . "<br>";
-
 ?>

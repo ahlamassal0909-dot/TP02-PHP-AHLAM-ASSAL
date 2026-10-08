@@ -1,19 +1,14 @@
 <?php
-
 if (
     isset($_POST["nom"]) &&
     isset($_POST["prenom"]) &&
     isset($_POST["groupe"])
 ) {
-
     $nom = trim($_POST["nom"]);
     $prenom = trim($_POST["prenom"]);
     $groupe = trim($_POST["groupe"]);
-
     if ($nom == "" || $prenom == "" || $groupe == "") {
-
         echo "Veuillez remplir tous les champs.";
-
     } else {
 
         $nom = htmlspecialchars($nom, ENT_QUOTES, "UTF-8");
@@ -23,10 +18,7 @@ if (
         echo "Bienvenue " . $prenom . " " . $nom;
         echo "<br>Votre groupe est : " . $groupe;
     }
-
 } else {
-
     echo "Veuillez remplir le formulaire.";
 }
-
 ?>

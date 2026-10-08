@@ -5,24 +5,18 @@
     <title>Exercice 1</title>
 </head>
 <body>
-
 <h1>Mon TP PHP</h1>
-
 <?php
 // Commentaire sur une ligne
-
 /*
    Commentaire
    sur plusieurs lignes
 */
-
 echo "Bienvenue dans mon TP PHP<br>";
 echo "Nom : Assal<br>";
 echo "Prénom : Ahlam<br>";
 echo "Groupe : G3<br>";
 ?>
-
 <p><?= "Je commence à apprendre PHP." ?></p>
-
 </body>
 </html>

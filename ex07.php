@@ -1,5 +1,4 @@
 <?php
-
 $nombre = 7;
 
 echo "<h2>Table de multiplication de 7</h2>";
@@ -19,5 +18,4 @@ for ($i = 1; $i <= 6; $i++) {
 
     echo "<br>";
 }
-
 ?>
